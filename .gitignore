@@ -6,6 +6,11 @@
 /build
 /pit-reports
 
+#Eclispe dolgok teljes ignorálása
+/.settings
+.classpath
+.project
+
 # Top level directories in sub-projects
 */target
 

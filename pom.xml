@@ -36,17 +36,39 @@
 		</configuration>
 	</plugin>
 	  
-      <plugin>
+    <plugin>
     	<groupId>org.pitest</groupId>
     	<artifactId>pitest-maven</artifactId>
     	<version>1.6.6</version>
-    	 <dependencies>
-                    <dependency>
-                        <groupId>org.pitest</groupId>
-                        <artifactId>pitest-junit5-plugin</artifactId>
-                        <version>0.11</version>
-                    </dependency>
-                </dependencies>
+    	<dependencies>
+            <dependency>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-junit5-plugin</artifactId>
+                <version>0.11</version>
+            </dependency>
+        </dependencies>
+		
+		<!-- Itt kell konfigurálni -->
+		<configuration>
+			<!-- Legyenek csak a tuple2D csomag osztályai mutálva --> 
+			<targetClasses>
+				<param>us.ihmc.euclid.tuple2D*</param>
+			</targetClasses>
+			
+			<!-- Legyenek csak a tuple2D csomag teszjei futtava -->
+			<targetTests>
+				<param>us.ihmc.euclid.tuple2D*</param>
+			</targetTests>
+			
+			<!-- 8 szál használata. -->
+			<threads>8</threads>
+			
+			<!-- Használt mutátorok. -->
+			<mutators>
+				<!-- Ez 7 darab alap mutátort foglal magába. -->
+				<mutator>OLD_DEFAULTS</mutator>
+			</mutators>
+		</configuration>
  	</plugin>
       	
     </plugins>
