@@ -31,7 +31,7 @@ Az *OLD_DEFAULTS* mutátorokkal futtava a PIT-et a projekt különböző csomagj
 következő eredményeket kaptuk:
  
  | Csomag\*    | Mutációs lefedettség   | Teszt erő | Futásidő
- | ---         | :-:                    | :-:       |
+ | ---         | :-:                    | :-:       | ---
  | geometry    | 75%                    | 90%       | 7p 29mp
  | matrix      | 86%                    | 93%       | 1p 26mp
  | orientation | 7%                     | 80%       | 2mp
