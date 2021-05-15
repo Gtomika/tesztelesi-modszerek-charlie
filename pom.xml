@@ -51,14 +51,14 @@
 
         <!-- Itt kell konfigurálni -->
         <configuration>
-          <!-- Legyenek csak a tuple2D csomag osztályai mutálva -->
+          <!-- Legyenek csak az itt megadott csomag osztályai mutálva -->
           <targetClasses>
-            <param>us.ihmc.euclid.tuple2D*</param>
+            <param>us.ihmc.euclid.tuple3D*</param>
           </targetClasses>
 
-          <!-- Legyenek csak a tuple2D csomag teszjei futtava -->
+          <!-- Legyenek csak az itt megadott csomag teszjei futtava -->
           <targetTests>
-            <param>us.ihmc.euclid.tuple2D*</param>
+            <param>us.ihmc.euclid.tuple3D*</param>
           </targetTests>
 
           <!-- 8 szál használata. -->
