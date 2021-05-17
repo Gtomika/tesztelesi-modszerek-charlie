@@ -8,6 +8,9 @@ Charlie csapat:
 Eredeti repo:
 https://github.com/ihmcrobotics/euclid
 
+Kanban tábla:
+https://kanbanflow.com/board/9hFeg2w
+
 
 # Tartalomjegyzék
 1. [Projekt struktúra](#introduction)
