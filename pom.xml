@@ -11,7 +11,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.1</version>
+        <version>3.8.0</version>
         <configuration>
           <release>11</release>
         </configuration>
@@ -54,12 +54,12 @@
         <configuration>
           <!-- Legyenek csak az itt megadott csomag osztályai mutálva -->
           <targetClasses>
-            <param>us.ihmc.euclid.*</param>
+            <param>us.ihmc.euclid.tuple3D*</param>
           </targetClasses>
 
           <!-- Legyenek csak az itt megadott csomag teszjei futtava -->
           <targetTests>
-            <param>us.ihmc.euclid.*</param>
+            <param>us.ihmc.euclid.tuple3D*</param>
           </targetTests>
 
           <!-- 8 szál használata. -->
