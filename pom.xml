@@ -9,8 +9,9 @@
     <testSourceDirectory>test</testSourceDirectory>
     <plugins>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
+        <version>2.3.1</version>
         <configuration>
           <release>11</release>
         </configuration>
@@ -53,12 +54,12 @@
         <configuration>
           <!-- Legyenek csak az itt megadott csomag osztályai mutálva -->
           <targetClasses>
-            <param>us.ihmc.euclid.tuple3D*</param>
+            <param>us.ihmc.euclid.*</param>
           </targetClasses>
 
           <!-- Legyenek csak az itt megadott csomag teszjei futtava -->
           <targetTests>
-            <param>us.ihmc.euclid.tuple3D*</param>
+            <param>us.ihmc.euclid.*</param>
           </targetTests>
 
           <!-- 8 szál használata. -->
@@ -67,7 +68,7 @@
           <!-- Használt mutátorok. -->
           <mutators>
             <!-- Ez 7 darab alap mutátort foglal magába. -->
-            <mutator>OLD_DEFAULTS</mutator>
+            <mutator>STRONGER</mutator>
           </mutators>
         </configuration>
       </plugin>

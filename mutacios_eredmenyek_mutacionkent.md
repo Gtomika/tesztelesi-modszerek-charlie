@@ -63,8 +63,8 @@ Megfigyelt jellemzők:
 
 ## Changed conditional boundary - 8:51 <a name="1"></a>
 
-| Csomag\*                | Mutációs lefedettség | Teszt erő | 
-| ---                     | :-:                  | :-:       | 
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
 | axisAngle.interfaces    | 0%                   | 0%        |
 | geometry                | 63%                  | 67%       |
 | geometry.interfaces     | 68%                  | 74%       |
@@ -80,6 +80,110 @@ Megfigyelt jellemzők:
 | yawPitchRoll.interfaces | 0%                   | 0%        |
 
 <br/><br/>
+
+
+## Increments mutator - 9:13 <a name="2"></a>
+
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
+| axisAngle.interfaces    | 100%                 | 100%      |
+| geometry.interfaces     | 91%                  | 96%       |
+| geometry.tools          | 76%                  | 96%       |
+| matrix.interfaces       | 100%                 | 100%      |
+| tools                   | 92%                  | 97%       |
+| transform               | 100%                 | 100%      |
+| tuple2D.interfaces      | 100%                 | 100%      |
+| tuple3D.interfaces      | 100%                 | 100%      |
+| tuple4D.interfaces      | 100%                 | 100%      |
+| yawPitchRoll.interfaces | 100%                 | 100%     |
+
+<br/><br/>
+
+## Invert negatives - 14:16 <a name="3"></a>
+
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
+| axisAngle.interfaces    | 100%                 | 100%      |
+| geometry                | 100%                 | 100%      |
+| geometry.interfaces     | 100%                 | 100%      |
+| geometry.tools          | 91%                  | 96%       |
+| matrix.interfaces       | 100%                 | 100%      |
+| tools                   | 96%                  | 96%       |
+| transform               | 100%                 | 100%      |
+| tuple2D.interfaces      | 100%                 | 100%      |
+| tuple3D.interfaces      | 100%                 | 100%      |
+| tuple4D.interfaces      | 100%                 | 100%      |
+| yawPitchRoll.interfaces | 0%                   | 0%        |
+
+<br/><br/>
+
+## Math mutator - 32:12 <a name="4"></a>
+
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
+| axisAngle.interfaces    | 100%                 | 100%      |
+| geometry                | 79%                  | 88%       |
+| geometry.interfaces     | 73%                  | 84%       |
+| geometry.tools          | 94%                  | 97%       |
+| matrix.interfaces       | 95%                  | 95%       |
+| orientation.interfaces  | 0%                   | 0%        |
+| rotationConversion      | 91%                  | 91%       |
+| tools                   | 92%                  | 97%       |
+| transform               | 60%                  | 60%       |
+| tuple2D.interfaces      | 93%                  | 93%       |
+| tuple3D.interfaces      | 95%                  | 95%       |
+| tuple4D.interfaces      | 95%                  | 95%       |
+| yawPitchRoll.interfaces | 0%                   | 0%        |
+
+<br/><br/>
+
+## Negate conditionals - 30:55 <a name="5"></a>
+
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
+| axisAngle.interfaces    | 100%                 | 100%      |
+| geometry                | 79%                  | 88%       |
+| geometry.interfaces     | 73%                  | 84%       |
+| geometry.tools          | 94%                  | 97%       |
+| matrix.interfaces       | 95%                  | 95%       |
+| orientation.interfaces  | 0%                   | 0%        |
+| rotationConversion      | 91%                  | 91%       |
+| tools                   | 92%                  | 97%       |
+| transform               | 60%                  | 60%       |
+| tuple2D.interfaces      | 93%                  | 93%       |
+| tuple3D.interfaces      | 95%                  | 95%       |
+| tuple4D.interfaces      | 95%                  | 95%       |
+| yawPitchRoll.interfaces | 0%                   | 0%        |
+
+<br/><br/>
+
+## Void method calls - 51:20 <a name="6"></a>
+
+| Csomag\*                | Mutációs lefedettség | Teszt erő |
+| ---                     | :-:                  | :-:       |
+| axisAngle               | 76%                  | 87%       |
+| axisAngle.interfaces    | 87%                  | 99%       |
+| geometry                | 69%                  | 84%       |
+| geometry.interfaces     | 45%                  | 80%       |
+| geometry.tools          | 72%                  | 86%       |
+| matrix                  | 76%                  | 81%       |
+| matrix.interfaces       | 92%                  | 98%       |
+| orientation             | 27%                  | 75%       |
+| orientation.interfaces  | 69%                  | 98%       |
+| tools                   | 72%                  | 85%       |
+| transform               | 92%                  | 95%       |
+| transform.interfaces    | 90%                  | 98%       |
+| tuple2D                 | 71%                  | 79%       |
+| tuple2D.interfaces      | 90%                  | 96%       |
+| tuple3D                 | 64%                  | 82%       |
+| tuple3D.interfaces      | 92%                  | 96%       |
+| tuple4D                 | 81%                  | 93%       |
+| tuple4D.interfaces      | 95%                  | 96%       |
+| yawPitchRoll            | 83%                  | 83%       |
+| yawPitchRoll.interfaces | 81%                  | 95%       |
+
+<br/><br/>
+
 
 ## Empty returns - 4:23 <a name="7"></a>
 
